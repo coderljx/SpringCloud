@@ -1,0 +1,14 @@
+server:
+  port: 60001
+
+spring:
+  application:
+    name: coco1
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 12341234
+    url: jdbc:mysql://localhost:3306/koko
+
+#mybatis:
+#  config-location: classpath:Mapper/*.xml
